@@ -9,7 +9,11 @@
 
 body{
     background-image: url("/public/img/t.jpg");
-    background-color: aliceblue;
+    background-color: rgb(136, 160, 180);
+}
+
+a {
+    color: var(--bs-dark);
 }
 
 /* Gestion des categories */
@@ -36,6 +40,7 @@ body{
 .categoyr__img img{
     width: 100%;
     object-fit: cover;
+    
 }
 
 .categoyr__img--large{
